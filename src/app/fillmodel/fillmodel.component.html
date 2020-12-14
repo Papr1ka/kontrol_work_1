@@ -1,0 +1,8 @@
+<div class="form-group">
+    <h3>параметры обьекта</h3>
+    <input type="number" [(ngModel)] = "item.id" class="form-control" placeholder="Номер"><br>
+    <input type="text" [(ngModel)] = "item.name" class="form-control" placeholder="Имя"><br>
+    <input type="number" [(ngModel)] = "item.date" class="form-control" placeholder="Дата"><br>
+    <input type="number" [(ngModel)] = "item.cost" class="form-control" placeholder="Стоимость"><br>
+    <button (click) = "addModel(item)" class="btn">Добавить</button>
+</div>
